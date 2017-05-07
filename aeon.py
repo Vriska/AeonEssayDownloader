@@ -22,7 +22,7 @@ class Aeon :
         file = open("C:\\Users\Anirudh\Desktop\BJ\\"+str(filename)+".txt","a+")
         file.write(filename)
         file.write(self.Intro)
-        for text in self.Paragraphs[1:len(self.Paragraphs)-13] :
+        for text in self.Paragraphs[1:len(self.Paragraphs)-13] :             # Rids of bogus lines at the bottom 
             try :
                 file.write(text.get_text()+"\n")
                 file.write("\n")
