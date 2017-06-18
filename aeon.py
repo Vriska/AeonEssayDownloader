@@ -43,7 +43,7 @@ class Aeon :
 
 
 a = Aeon()
-for x in range(32,33):
+for x in range(32,33):                  #Change to whatever needed 
     for URL in a.Lcreate(x) :
         a.data(URL)
         a.wordwrite()
